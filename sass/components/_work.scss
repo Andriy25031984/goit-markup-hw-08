@@ -1,5 +1,8 @@
-/*.work{
+.work{
   padding-top:0;
+  @media (min-width: 1199) {
+    display: none;
+  }
 }
 .work__second-title {
   margin-bottom: 50px;
@@ -35,4 +38,4 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 padding-top: 27px;
 padding-bottom: 27px;
-}*/
+}
